@@ -4,11 +4,6 @@ import Dragon from './Dragon';
 import Monster from './Monster';
 
 const player1 = new Character('Solinho');
-player1.levelUp();
-player1.levelUp();
-player1.levelUp();
-player1.levelUp();
-player1.levelUp();
 const player2 = new Character('Carlos');
 const player3 = new Character('Zé');
 
@@ -24,4 +19,5 @@ function runBattles(battle: Battle[]) {
   });
 }
 
+console.log(player1);
 export { player1, player2, player3, monster1, monster2, pvp, pve, runBattles };
